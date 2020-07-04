@@ -1,0 +1,40 @@
+<h1>{{title}}</h1>
+
+
+<input type="text" class="search" name="search" placeholder="Искать по ID..." [(ngModel)]="searchId">
+<button class="searchsubmit" type="submit" (click)="SetClick()" >Искать</button>
+<!-- <router-outlet></router-outlet> -->
+<div class="addFactory">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
+
+    <a class="addtext">Добавить завод</a>
+    <br>
+
+    <div class="Atribs">
+        <label class="atribLabel" for="Fname">Название завода</label>
+        <input type="text" class="textbox" id="Fname" name="Fname" placeholder="Введите название" [(ngModel)]="nameinput">
+        <label class="atribLabel" for="country">Страна</label>
+        <input type="text" class="textbox" id="country" name="country" placeholder="Введите страну" [(ngModel)]="country">
+        <label class="PostAnswer" >{{Postanswer}}</label>
+
+        <button class="addsubmit" (click)="addFactory()">Добавить</button>
+    </div>
+    
+</div>
+
+<hr> 
+<br>
+<br>
+
+<input type="text" class="search" name="search" placeholder="Искать по названию..." [(ngModel)]="searchName">
+<button class="searchsubmit" type="submit"  (click)="GetByName()">Искать</button>
+
+
+<div class="FactoryList">
+    <div class="Factory" *ngFor="let i of FactoryList.slice().reverse()"  id="{{i.id}}" (click)="GoToFact(i.id)">
+      <label class="FNameLabel" style="font-size: 28px"> {{i.name}} </label>
+      <br>
+    </div>
+  </div>
+
