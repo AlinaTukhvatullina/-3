@@ -60,10 +60,18 @@ namespace AlinaApp.Models
 
         public IEnumerable<Pipe> getPipeByName(string name)
         {
-            return
+            try
+            {
+                return
                 from p in Pipes
                 where p.name == name
                 select p;
+            }
+            catch
+            {
+                IEnumerable<Pipe> b = null;
+                return b;
+            }
         }
 
         public IEnumerable<Factorys> getFactorysByName(string name)

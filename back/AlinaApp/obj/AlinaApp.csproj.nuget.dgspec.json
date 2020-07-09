@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "G:\\универ\\3 курс\\2 сем\\Кроссплатформа\\alinaLab2\\AlinaApp\\AlinaApp\\AlinaApp.csproj": {}
+    "D:\\User\\Documents\\Универ\\3 курс\\Кроссплатформенная разработка\\ЛР 3\\back\\AlinaApp\\AlinaApp.csproj": {}
   },
   "projects": {
-    "G:\\универ\\3 курс\\2 сем\\Кроссплатформа\\alinaLab2\\AlinaApp\\AlinaApp\\AlinaApp.csproj": {
+    "D:\\User\\Documents\\Универ\\3 курс\\Кроссплатформенная разработка\\ЛР 3\\back\\AlinaApp\\AlinaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\универ\\3 курс\\2 сем\\Кроссплатформа\\alinaLab2\\AlinaApp\\AlinaApp\\AlinaApp.csproj",
+        "projectUniqueName": "D:\\User\\Documents\\Универ\\3 курс\\Кроссплатформенная разработка\\ЛР 3\\back\\AlinaApp\\AlinaApp.csproj",
         "projectName": "AlinaApp",
-        "projectPath": "G:\\универ\\3 курс\\2 сем\\Кроссплатформа\\alinaLab2\\AlinaApp\\AlinaApp\\AlinaApp.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "G:\\универ\\3 курс\\2 сем\\Кроссплатформа\\alinaLab2\\AlinaApp\\AlinaApp\\obj\\",
+        "projectPath": "D:\\User\\Documents\\Универ\\3 курс\\Кроссплатформенная разработка\\ЛР 3\\back\\AlinaApp\\AlinaApp.csproj",
+        "packagesPath": "C:\\Users\\Alina\\.nuget\\packages\\",
+        "outputPath": "D:\\User\\Documents\\Универ\\3 курс\\Кроссплатформенная разработка\\ЛР 3\\back\\AlinaApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Alina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -95,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

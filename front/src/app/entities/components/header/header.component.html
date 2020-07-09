@@ -1,0 +1,27 @@
+<mat-toolbar>
+    <button class ="sidenav" type="button" mat-button (click)="toggleSidenav()">    
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g class="clickBackground">
+             <title>background</title>
+             <rect fill="none" id="canvas_background" height="26" width="26" y="-1" x="-1"/>
+             <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+              <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+             </g>
+            </g>
+            <g>
+             <title>Layer 1</title>
+             <rect rx="2" stroke="#000" id="svg_6" height="3.29787" width="23.7234" y="10.35106" x="0.1383" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff"/>
+             <rect rx="2" stroke="#000" id="svg_8" height="3.29787" width="23.7234" y="2.47872" x="0.1383" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff"/>
+             <rect rx="2" stroke="#000" id="svg_9" height="3.29787" width="23.7234" y="18.2234" x="0.1383" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff"/>
+            </g>
+           </svg>
+    </button>
+    
+    <h1>{{title}}</h1>
+
+    <div class="right-side">
+        <a routerLink="/auth"> {{LogIn()}} </a>
+      </div>
+
+
+</mat-toolbar>

@@ -1,0 +1,28 @@
+mat-toolbar 
+{
+    background-color: rgb(4, 114, 77);
+    height: 64px;
+    border-style: none;
+    border-bottom-style: solid;
+    
+}
+h1 
+{
+    color: white;
+    margin-left: 0.5em;
+}
+
+.right-side {
+    position: absolute; 
+    right: 20px;
+}
+.right-side a {
+    transition: all 0.3s;
+    display: flex;
+    text-decoration: none;
+    color: #e2e2e2;
+  }
+
+.sidenav{
+    background-color: rgb(4, 114, 77);
+}
